@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple page| Bangladesh</title>
+     <!-- bootstrap links -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fontawesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+<!-- Make a dropdown menu -->
+<header>
+  <div class="container">
+    <div class="header_wrapper">
+      <div class="logo">
+        <img src="https://th.bing.com/th/id/R.0acb54fa26e85a475e1ea03b26236f41?rik=LY70g3RxYKdO8Q&pid=ImgRaw&r=0" alt="">
+      <span>AHID </span>
+      </div>
+      
+        <div class="menu">
+          <ul class="nav_items">
+              <li class="nav_links"><a href="#">Home</a></li>
+              <li class="nav_links"><a href="#">Pages</a>
+                  <ul class="sub_menu">
+                      <li class="sub_menu_item"><a href="#">About Us</a></li>
+                      <li class="sub_menu_item"><a href="#">Pages</a></li>
+                      <li class="sub_menu_item"><a href="#">Contact Us</a></li>
+                      <li class="sub_menu_item"><a href="#">Help</a></li>
+
+                  </ul>
+              </li>
+              <li class="nav_links"><a href="#">About</a></li>
+              <li class="nav_links"><a href="#">Contact</a></li>
+              <li class="nav_links"><a href="#">Login</a></li>
+          </ul>
+        
+      </div>
+      <div class="icon_items">
+        
+        <a href="#" class="icon_item"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a href="#" class="icon_item"><i class="fa-solid fa-heart"></i></a>
+        <a href="#" class="icon_item"><i class="fa-solid fa-user"></i></a>
+       </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Banner section -->
+
+<section class="banner_section">
+  <div class="container">
+    <div class="banner">
+      <div class="banner_items">
+        <h3>Web devloper</h3>
+        <p>As a web developer, you are skilled in designing and developing websites and web applications. You have expertise in programming languages such as HTML, CSS, and JavaScript,
+           allowing you to create visually appealing and interactive web experiences.</p>
+    <button><a href="#">More About me</a></button>  
+  </div>
+  <div class="login_form">
+    
+    <form action="#">
+      <h3>Sign Up</h3>
+      <label for="fname">Name:</label><br>
+    <input type="text" name="" id="fname" placeholder="First Name"><br>
+    <label for="lname">Last Name </label><br>
+    <input type="text" name="" id="lname" placeholder="Last Name"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" name="" id="email" placeholder="Email Adress"><br>
+    <label for="psw">Password:</label><br>
+    <input type="password" name="" id="psw" placeholder="Enter your password"><br>
+    <button>Sign Up</button>
+    </form>
+
+  </div>
+      
+    </div>
+  </div>
+</section>
+<!-- About section -->
+<section class="about_section">
+  <div class="container">
+    <div class="about_us">
+    <h2>About Us</h2>
+    <div class="about_us_text">
+      <h3>Hi! I a'm Nahid</h3>
+      <p>My name is Md Nahid Hasan. I am a student of pabna Polytechnic Institue.I studey in  diploma civil Engineering.I can also write computer progamming.
+        I write computer progamming code in my free time.</p>
+       <button><a href="#">See More</a></button>
+      </div>
+    <div class="about_us_img">
+      <img src="img/nahid.jpg" alt="nahid">
+    </div>
+    </div>
+  </div>
+</section>
+<!-- dolor section -->
+<section class="dolor">
+  <div class="container">
+    <h3></h3>
+  </div>
+</section>
+
+<!-- post section -->
+<section class="post_section">
+  <div class="container">
+    <div class="post_wrapper">
+        <h2>Make a Post</h2>
+    <form id="postForm">
+      <input type="text" id="postTitle" placeholder="Title" required>
+      <textarea id="postContent" placeholder="Content" required></textarea>
+      <input type="file" id="postPhoto" accept="image/*" required>
+      <button type="submit">Submit</button>
+    </form>
+    </div>
+    <div id="postContainer" class="container"></div>
+  </div>
+</section>
+<!-- My details -->
+<section id="maps_section">
+  <div class="container">
+    <div class="row1">
+      <div class="google_maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29156.235049441024!2d89.2370944!3d24.0123904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b3175fb1e95%3A0x377c8d70e3663781!2sGovernment%20Edward%20College%2C%20Pabna!5e0!3m2!1sen!2sbd!4v1685728255815!5m2!1sen!2sbd"
+       width="400" height="450" style="border:0;" allowfullscreen="" 
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <div class="row1" id="send_massage">
+      <h3>Send Massage</h3>
+     <form action="#">
+      <input type="text" name="" id="name" placeholder="Enter your Name" required><br>
+      <input type="email" name="" id="email" placeholder="Enter your Email"required><br>
+      <textarea name="" id="textarea" cols="30" rows="10" placeholder="Write Massage"required></textarea><br>
+      <button type="submit" class="button_send">SEND</button>
+     </form>
+    </div>
+  </div>
+</section>
+<!-- clock section -->
+
+ <section class="clock_section">
+   <div class="container">
+    <div class="clock">
+      <div id="time"></div>
+    </div>
+   </div>
+
+    
+
+<!-- Our Team member -->
+<section class="team_member  py-5">
+  <div class="container">
+    <div class="team_titles text-center fs-1   pb-2 ">
+      <h1>Our team member</h1>
+    </div>
+  <div class="team_wrapper">
+    <div class="member_item">
+      <div class="member_img">
+        <img src="img/OIP.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="member_name">
+          <h3>Md Nahid Hasan</h3>
+          <P>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. 
+            Voluptate, delectus.</P>
+        </div>
+      </div>
+    <div class="member_item">
+      <div class="member_img">
+        <img src="img/OIP (1).jpg" alt="" class="img-fluid">
+        </div>
+        <div class="member_name">
+          <h3>Md Korim Ali</h3>
+          <P>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. 
+            Voluptate, delectus.</P>
+        </div>
+      </div>
+    <div class="member_item">
+      <div class="member_img">
+        <img src="img/OIP (2).jpg" alt="" class="img-fluid">
+        </div>
+        <div class="member_name">
+          <h3>Md Josim Khan</h3>
+          <P>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. 
+            Voluptate, delectus.</P>
+        </div>
+      </div>
+    <div class="member_item">
+      <div class="member_img">
+        <img src="img/OIP (3).jpg" alt="" class="img-fluid">
+        </div>
+        <div class="member_name">
+          <h3>Md Mohammod Ali</h3>
+          <P>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. 
+            Voluptate, delectus.</P>
+        </div>
+      </div>
+    <div class="member_item">
+      <div class="member_img">
+        <img src="img/OIP (4).jpg" alt="" class="img-fluid">
+        </div>
+        <div class="member_name">
+          <h3>Md Yousuf Ali</h3>
+          <P>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. 
+            Voluptate, delectus.</P>
+        </div>
+      </div>
+    <div class="member_item">
+      <div class="member_img">
+        <img src="img/R (2).jpg" alt="" class="img-fluid">
+        </div>
+        <div class="member_name">
+          <h3>Our Project</h3>
+          <P>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. 
+            Voluptate, delectus.</P>
+        </div>
+      </div>
+  </div>
+    </div>
+  </div>
+</section>
+<!-- BMI Section -->
+<section class="bmi">
+  <div class="container">
+    <div class="row text-center py-5">
+      <h3 class="text_h3">BMI Calculate</h3>
+  </div>
+  <div class="row">
+    <div class="bmi_calculator">
+      
+      <label for="height">Height</label><br>
+      <input type="text" id="height" name="height" placeholder="Height in cm"><br>
+      <label for="weight">Weight</label><br>
+      <input type="text" id="weight" name="weight" placeholder="Weight in kg"><br>
+      <input id="submit_button" type="button" value="Calculate" onclick="calculate()"><br>
+       <h3>Your BMI is:</h3>
+      <input type="text" id="result" readonly>
+    </div>
+   
+  </div>
+</div>
+</section>
+
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer section -->
+<footer>
+  <div class="container">
+    <div class="footer_wrapper">
+      <div class="footer_items">
+        <h3>Prouduits</h3>
+        <ul>
+          <li><a href="#">Promations</a></li>
+          <li><a href="#">Nouveaux produits</a></li>
+          
+        </ul>
+      </div>
+      <div class="footer_items">
+        <h3>Notre Societe</h3>
+        <ul>
+          <li><a href="#">Livraison</a></li>
+          <li><a href="#">Notre Histoire</a></li>
+          <li><a href="#">Contactez-nous</a></li>
+          
+        </ul>
+      </div>
+      <div class="footer_items">
+        <h3>VotreCompte</h3>
+        <ul>
+          <li><a href="#">Informations Personnelles</a></li>
+          <li><a href="#">Commandes</a></li>
+          <li><a href="#">Avoirs</a></li>
+          <li><a href="#">Adresses</a></li>
+          
+        </ul>
+      </div>
+      <div class="footer_items">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="#">ABCD Nutrition</a></li>
+          <li><a href="#">513 Rue ROber Estienne</a></li>
+          <li><a href="#">60400 Nayon, FRANCE</a></li>
+          
+        </ul>
+      </div>
+      <div class="footer_items">
+        <h3>Informations</h3>
+        <ul>
+          <li><a href="#">Conditions dutillisation</a></li>
+          <li><a href="#">Respect de lenvironment</a></li>
+          <li><a href="#">Mentions legales</a></li>
+          <li><a href="#">Politique de confidentialite</a></li>
+          <li><a href="#">COnditions dannulation</a></li>
+          <li><a href="#">Livraison Et Paiemnet</a></li>
+        </ul>
+      </div>
+ 
+    </div>
+    <div class="footer_title">
+    <p>Designed By MD Nahid Hasan</p>
+    </div>
+    <div class="footer_icon">
+      <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-google-plus-g"></i></a>
+      <a href="#"><i class="fab fa-pinterest"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
+        
+
+  </body>
+</html>
